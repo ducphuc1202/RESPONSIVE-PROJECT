@@ -1,0 +1,472 @@
+@font-face {
+    font-family: raleway;
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+@-webkit-keyframes color {
+    0% {color: #3ec9b4;}
+    20% {color: #bf6c5a;}
+    40% {color: #ff9800;}
+    60% {color: #dd2942;}
+    80% {color: #19a15f;}
+    100% {color: #3ec9b4;}
+}
+@keyframes color {
+    0% {color: #3ec9b4;}
+    20% {color: #bf6c5a;}
+    40% {color: #ff9800;}
+    60% {color: #dd2942;}
+    80% {color: #19a15f;}
+    100% {color: #3ec9b4;}
+}
+@-webkit-keyframes background {
+    0% {background-color: #3ec9b4;}
+    20% {background-color: #bf6c5a;}
+    40% {background-color: #ff9800;}
+    60% {background-color: #dd2942;}
+    80% {background-color: #19a15f;}
+    100% {background-color: #3ec9b4;}
+}
+@keyframes background {
+    0% {background-color: #3ec9b4;}
+    20% {background-color: #bf6c5a;}
+    40% {background-color: #ff9800;}
+    60% {background-color: #dd2942;}
+    80% {background-color: #19a15f;}
+    100% {background-color: #3ec9b4;}
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'raleway', sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.hidden {
+    display: none;
+}
+.bold-text {
+    font-weight: bold;
+}
+.black-text {
+    color: #353535;
+}
+.white-text {
+    color: #fff;
+}
+.title {
+    font-size: 20px;
+    color: #353535;
+}
+.icon {
+    padding: 30px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1170px;
+    height: auto;
+    line-height: 2;
+    color: #a1a1a1;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.section {
+    padding: 80px 0px;
+    text-align: center;
+}
+.clear-fix {
+    display: block;
+    content: "";
+    clear: both;
+}
+/* CSS for banner */
+.banner {
+    width: 100%;
+    height: auto;
+    background-image: url(../image/background.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #353535;
+    text-align: center;
+    line-height: 2;
+}
+#banner-title{
+    font-size: 54px;
+    padding-top: 120px;
+}
+#banner-des {
+    color: #3ec9b4;
+    font-size: 22px;
+    border: 1px solid #3ec9b4;
+    display: inline-block;
+    padding: 3px 12px;
+    position: relative;
+    -webkit-animation: color 10s linear infinite;
+    animation: color 10s linear infinite;
+}
+#day-text {
+    color: #a1aab1;
+}
+#btn-learn-more {
+    margin-top: 30px;
+    padding: 20px 30px;
+    border: 1px solid #3ec9b4;
+    background-color: #ffffff;
+    color: #3ec9b4;
+    color: #fff;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    margin-bottom: 40px;
+    -webkit-animation: background 10s linear infinite;
+    animation: background 10s linear infinite;
+}
+#btn-learn-more:hover {
+    background-color: #3ec9b4;
+    color: #ffffff;
+}
+/* End CSS for banner */
+
+/* CSS for LOVE */
+
+.item-row {
+    padding-top: 30px;
+}
+.love-item {
+    margin-bottom: 40px;
+}
+.love-img {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 30px;
+    color: #ffffff;
+    display: inline-block;
+    background-color: #3ec9b4;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    -webkit-animation: background 10s linear infinite;
+    animation: background 10s linear infinite;
+}
+.love-item-title, .mind-item-title, .team-item-title {
+    padding: 5px 0px;
+    color: #353535;
+    font-weight: bold;
+    color: #bf6c5a;
+}
+.line {
+    width: 80px;
+    height: 3px;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #3ec9b4;
+    margin-bottom: 10px;
+}
+/* End CSS for LOVE */
+
+/* CSS for DESIGN */
+.design-img, .design-content {
+    margin-bottom: 40px;
+}
+.design-img {
+    display: inline-block;
+    height: 350px;
+    background-image: url(../image/iphone5.png);
+    background-position: left;
+    background-size: cover;
+}
+.design-content {
+    box-shadow: box-shadow: 0 0 0 8px #000000;
+}
+.btn-box {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-round {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #353535;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 50%;
+}
+.btn-round:first-child {
+    background-color: #353535;
+}
+.btn-round:active {
+    background-color: #353535;
+}
+/* End CSS for DESIGN */
+
+/* CSS for GOT PROBLEM */
+.got-problem {
+    background-image: url(../image/background2.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+    line-height: 2;
+    font-size: 20px;
+}
+.got-problem  .btn-down {
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #3ec9b4;
+    margin-top: 30px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.got-problem .btn-down:hover {
+    background-color: #bf6c5a;
+}
+/* End CSS for GOT PROBLEM */
+
+/* CSS for MIND */
+.mind-item, .team-item {
+    margin-bottom: 30px;
+}
+.mind-item-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
+    margin-bottom: 10px;
+}
+.view-more {
+    color: #ffffff;
+    height: 220px;
+    line-height: 220px;
+    font-size: 18px;
+    opacity: 0;
+    font-weight: bold;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.mind-item-img:hover >.view-more {
+    background-color: #359287;
+    opacity: 0.6;
+}
+.view-more a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#creative-img {
+    background-image: url(../image/image1.png);
+}
+#think-alike-img {
+    background-image: url(../image/image2.png);
+}
+#pixel-perfection-img {
+    background-image: url(../image/image3.png);
+}
+/* End CSS for MIND */
+
+/* CSS for INGITE */
+.ingite {
+    background-color: #242831;
+    color: #ffffff;
+}
+.ingite a {
+    color: #ffffff;
+    padding: 20px 30px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.ingite a:hover {
+    background-color: #bf6c5a;
+    border: none;
+}
+/* End CSS for INGITE */
+
+/* CSS for TEAM */
+.social {
+    background-color: #242830;
+    color: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.social:hover {
+    background-color: #3dc9b3;
+}
+/* CSS for TEAM */
+
+/* CSS for SUBSCRIBE */
+.subscribe {
+    background-image: url(../image/background3.png);
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sub-form {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.sub-form input {
+    height: 40px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 20px;
+}
+.sub-form button {
+    padding: 10px;
+    height: 40px;
+    line-height: 20px;
+    background-color: #3ec9b4;
+    color: #fff;
+    border: none;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.sub-form button:hover {
+    background-color: #dbbdb5;
+    color: #333;
+}
+#sub-text {
+    color: #fff;
+}
+.subscribe .btn-up {
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #3ec9b4;
+    margin-top: 30px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+    top: 100px;
+    z-index: 99999;
+    opacity: 0.8;
+}
+.subscribe .btn-up:hover {
+    background-color: #bf6c5a;
+}
+/* End CSS for SUBSCRIBE */
+
+/* CSS for CONTACT */
+.contact {
+    background-image: url(../image/background4.png);
+    background-size: cover;
+    background-position: bottom center;
+}
+.info-card {
+    padding: 30px 10px;
+    background-color: white;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    position: relative;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.info-card:hover {
+    position: relative;
+    bottom: 10px;
+    border-bottom: 3px solid #3dc9b3;
+}
+.info-card i {
+    color: #353535;
+}
+.info-title {
+    color: #3ec9b4;
+    font-weight: bold;
+}
+/* End CSS for CONTACT */
+
+/* CSS for FOOTER */
+.footer {
+    background-color: #333333;
+    height: 80px;
+    color: #878e95;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+}
+.terms-legal {
+    color: #878e95;
+    text-decoration: none;
+}
+.terms-legal:hover {
+    color: #3dc9b3;
+}
+@media screen and (min-width: 680px) {
+    .banner {
+        height: 100vh;
+    }
+    .sub-form {
+        display: block;
+    }
+    .footer {
+        line-height: 80px;
+    }
+}
+@media screen and (min-width: 680px) and (max-width: 991px) {
+    .mind-item-img {
+        width: 75%;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 992px) {
+    .item-row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .design-img {
+        height: auto;
+    }
+    .info-card {
+        margin: 30px 15px;
+    }
+}
